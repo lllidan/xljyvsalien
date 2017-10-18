@@ -15,7 +15,7 @@ class Ship():
         if os.path.exists('images/fjy.bmp'):
             self.image = pygame.image.load('images/fjy.bmp')
         else:
-            print("图片不存在，加载失败")
+            print("fjy图片不存在，加载失败")
 
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
